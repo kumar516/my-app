@@ -48,7 +48,7 @@ class CartPage extends Component {
                                             </Button>
                                     </div>
                                 </Grid>
-                            ) : <div>No items in cart.</div>}
+                            ) : <div className="err_msg">No items in cart.</div>}
                         </Grid>
                     </Container>
                 </div>

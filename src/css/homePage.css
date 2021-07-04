@@ -87,3 +87,9 @@
     color: #6c757d !important;
     font-weight: 400;
 }
+.err_msg{
+    margin: 1em 0 0 1em;
+    font-size: 0.9em;
+    color: #6c757d;
+    font-weight: 500;
+}
