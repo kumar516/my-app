@@ -17,7 +17,7 @@ class Header extends Component {
                     <Toolbar>
                         <IconButton edge="start" color="inherit" aria-label="menu">
                             <MenuIcon />
-                            <div className="header_name">Shopping App</div>
+                            <div className="header_name">Shopping Apps</div>
                         </IconButton>
                         <div className="icon_main_container">
                             <Link to={"/homepage"} className="cart_icon">

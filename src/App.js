@@ -8,6 +8,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import CartPage from './components/cart/cartPage';
 
 class App extends Component {
@@ -15,16 +16,16 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Router>
+        <HashRouter>
           <div className="App">
             <Header />
             <Switch>
-              <Route path={"/"} exact component={HomePage} />
+              <Route path={'/'} exact component={HomePage} />
               <Route path={"/homepage"} component={HomePage} />
               <Route path={"/cart"} component={CartPage} />
             </Switch>
           </div>
-        </Router>
+        </HashRouter>
       </Provider>
     );
   }
