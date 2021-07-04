@@ -20,7 +20,7 @@ class Header extends Component {
                             <div className="header_name">Shopping App</div>
                         </IconButton>
                         <div className="icon_main_container">
-                            <Link to={"/"} className="cart_icon">
+                            <Link to={"/homepage"} className="cart_icon">
                                 <HomeIcon className="icon_container" />
                             </Link>
                             <div className="icon_container1">
