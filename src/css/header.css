@@ -1,0 +1,40 @@
+.MuiToolbar-regular{
+    justify-content: space-between;
+}
+.header_name{
+    margin-left: 1em;
+    font-size: 0.8em;
+}
+.icon_container{
+    margin-left: 1em;
+}
+.icon_container1{
+    margin-left: 1em;
+    position: relative;
+}
+.cart_count{
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(218, 42, 42);
+    border: 0.1em solid #fff;
+    color: black;
+    right: -0.75em;
+    top: -0.65em;
+}
+.cart_no{
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: 600;
+}
+.icon_main_container{
+    display: flex;
+}
+.cart_icon{
+    color: #fff;
+    text-decoration: none;
+}
